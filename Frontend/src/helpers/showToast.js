@@ -1,4 +1,4 @@
-import { toast, Bounce } from "react-toastify";
+import { toast, Bounce  } from "react-toastify";
 
 export const showToast = (type,msg) => {
     const config = {
@@ -6,11 +6,9 @@ export const showToast = (type,msg) => {
         autoClose: 3000,
         hideProgressBar: false,
         closeOnClick: false,
-        pauseOnHover: true,
-        draggable: true,
         progress: undefined,
         theme: "light",
-        transition: Bounce,
+        transition: Bounce ,
     }
     if( type === "Success"){
         toast.success(msg,config);

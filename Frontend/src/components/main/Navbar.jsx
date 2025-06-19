@@ -76,12 +76,16 @@ export default function Navbar() {
                 <div className="flex items-center">
                     {!user.isLoggedIn ?
 
-                        <Button asChild className="bg-darkRed hover:bg-midRed">
-                            <Link to={RouteSignIn} className="text-white font-roboto">
+                        <Button
+                            asChild
+                            className="bg-[#D7263D] text-white font-roboto rounded-lg shadow-[0_4px_6px_rgba(0,0,0,0.3)] hover:shadow-[0_8px_12px_rgba(0,0,0,0.4)] hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 ease-in-out"
+                        >
+                            <Link to={RouteSignIn} className="flex items-center gap-2">
                                 <LogIn className="text-white" />
                                 Sign In
                             </Link>
                         </Button>
+
                         :
                         <DropdownMenu>
                             <DropdownMenuTrigger>

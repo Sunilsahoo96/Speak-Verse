@@ -91,3 +91,7 @@
 ::-webkit-scrollbar{
   display: none;
 }
+
+.toast-custom-top {
+  top: 64px !important;
+}
