@@ -27,12 +27,12 @@ export default function ClientProtectionRoute() {
                 <h1 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-darkRed to-midRed text-transparent bg-clip-text mb-3 pb-3">
                     Speakverse
                 </h1>
-                {/* <Button asChild className="bg-darkRed hover:bg-midRed rounded-lg text-[16px] px-4 py-5">
+                <Button asChild className="bg-darkRed hover:bg-midRed rounded-lg text-[16px] px-4 py-5">
                     <Link to={RouteSignIn} className="text-white font-roboto">
                     <LogIn className="text-white" />
                         Sign In
                     </Link>
-                </Button> */}
+                </Button>
             </div>
             </>
         )

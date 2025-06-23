@@ -90,4 +90,7 @@ router.get('/blog/get-my-blogs/:id', Authenticate, GetMyBlogs);
 router.get('/blog/commets-on-my-blogs/:id', Authenticate, GetMyBlogsComments);
 router.get('/blog/comments-by-me/:id', Authenticate, GetCommentsByMe);
 
+router.get('/profile/:id', Authenticate, GetUser, AdminView);
+
+
 module.exports = router;

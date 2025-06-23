@@ -69,9 +69,7 @@ export default function BlogDeatils() {
                                         key={blog._id}
                                         className="bg-white border rounded-xl shadow-sm p-4 font-roboto flex flex-col justify-between"
                                     >
-                                        {/* <div>
-                                            <img src={blog.featureImage} alt="" />
-                                        </div> */}
+                                       
                                         {/* Blog Title */}
                                         <h2 className="text-lg font-semibold text-darkRed mb-2">{blog.title}</h2>
 

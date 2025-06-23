@@ -10,7 +10,7 @@ import {
     SidebarMenuItem,
 } from "../common/Sidebar"
 import { Link } from 'react-router-dom'
-import { House, SquareStack, Users, MessageCircleMore, NotepadText, CircleDotDashed, CirclePlus } from 'lucide-react'
+import { House, SquareStack, Users, MessageCircleMore, NotepadText, CirclePlus } from 'lucide-react'
 import { RouteIndex, RouteBlog, RouteBlogAdd, RouteBlogByCategory, RouteCateDetails, RouteCommentsByMe, RouteGetAllUsers, RouteGetComments, RouteGetMyBlogs, RouteMyBlogsComments } from '../../helpers/RouteName'
 import { useFetch } from '../../hooks/useFetch'
 import Loading from './Loading'
@@ -57,27 +57,27 @@ export default function AppSidebar() {
                                         // Content for 'User' role
                                         <>
                                             <SidebarMenuButton>
-                                                <House className='text-darkRed' />
+                                                {/* <House className='text-darkRed' /> */}
                                                 <Link to="/" className='font-semibold font-raleway'> Home </Link>
                                             </SidebarMenuButton>
 
                                             <SidebarMenuButton>
-                                                <LibraryBig className='text-darkRed' />
+                                                {/* <LibraryBig className='text-darkRed' /> */}
                                                 <Link to={RouteGetMyBlogs} className='font-semibold font-raleway'>My Blogs</Link>
                                             </SidebarMenuButton>
 
                                             <SidebarMenuButton>
-                                                <MessageSquareHeart className='text-darkRed' />
+                                                {/* <MessageSquareHeart className='text-darkRed' /> */}
                                                 <Link to={RouteMyBlogsComments} className='font-semibold font-raleway'>Blogs Comment</Link>
                                             </SidebarMenuButton>
 
                                             <SidebarMenuButton>
-                                                <MessageSquareShare className='text-darkRed' />
+                                                {/* <MessageSquareShare className='text-darkRed' /> */}
                                                 <Link to={RouteCommentsByMe} className='font-semibold font-raleway'>Comments By Me</Link>
                                             </SidebarMenuButton>
 
                                             <SidebarMenuButton>
-                                                <CirclePlus className='text-darkRed' />
+                                                {/* <CirclePlus className='text-darkRed' /> */}
                                                 <Link to={RouteBlogAdd} className='font-semibold font-raleway'>Add Blog</Link>
                                             </SidebarMenuButton>
                                         </>
@@ -143,7 +143,6 @@ export default function AppSidebar() {
                                             categoryData.map(category =>
                                                 <SidebarMenuItem key={category._id}>
                                                     <SidebarMenuButton>
-                                                        {/* <CircleDotDashed className='text-darkRed' /> */}
                                                         <Link to={RouteBlogByCategory(category.slug)} className='font-semibold font-raleway text-center'>{category.name}</Link>
                                                     </SidebarMenuButton>
                                                 </SidebarMenuItem>

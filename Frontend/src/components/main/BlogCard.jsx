@@ -9,7 +9,6 @@ import LikeCount from './LikeCount';
 import CommentCount from './CommentCount';
 
 export default function BlogCard({ props: blog }) {
-  // Safety: If blog or required parts are missing, don’t render
   if (!blog || !blog.category?.slug || !blog.slug) {
     return null;
   }

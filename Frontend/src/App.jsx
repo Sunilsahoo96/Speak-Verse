@@ -18,7 +18,7 @@ import BlogDeatils from './pages/blogs/BlogDetails.jsx'
 import SingleBlogDetail from './pages/blogs/SingleBlogDetail.jsx'
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { RouteBlogDetails, RouteBlog, RouteBlogAdd, RouteBlogEdit, RouteIndex, RouteSignIn, RouteSignUp, RouteAddCate, RouteCateDetails, RouteEditCate, RouteBlogByCategory, RouteSearch, RouteGetComments, RouteGetAllUsers, RouteGetMyBlogs, RouteMyBlogsComments, RouteCommentsByMe, RouteProfileUser, RouteProfileAdmin, RouteNotFound } from './helpers/RouteName'
+import { RouteBlogDetails, RouteBlog, RouteBlogAdd, RouteBlogEdit, RouteIndex, RouteSignIn, RouteSignUp, RouteAddCate, RouteCateDetails, RouteEditCate, RouteBlogByCategory, RouteSearch, RouteGetComments, RouteGetAllUsers, RouteGetMyBlogs, RouteMyBlogsComments, RouteCommentsByMe, RouteProfileUser, ProfilebyId, RouteProfileAdmin, RouteNotFound } from './helpers/RouteName'
 import BlogByCategory from './components/main/BlogByCategory.jsx'
 import SearchResult from './components/main/SearchResult.jsx'
 import GetComments from './pages/GetComments.jsx'
@@ -28,6 +28,10 @@ import MyBlogsComments from './pages/comments/MyBlogsComments.jsx'
 import CommentsByMe from './pages/comments/CommentsByMe.jsx'
 import ClientProtectionRoute from './components/main/ClientProtectionRoute.jsx'
 import AdminProtectionRoute from './components/main/AdminProtectionRoute.jsx'
+
+import UserProfile from './pages/UserProfile.jsx'
+
+
 import PageNotFound from './pages/PageNotFound.jsx'
 
 export default function App() {
@@ -47,6 +51,7 @@ export default function App() {
               <Route path={RouteCommentsByMe} element={<CommentsByMe />} />
               <Route path={RouteBlogAdd} element={<AddBlog />} />
               <Route path={RouteBlogEdit()} element={<EditBlog />} />
+              <Route path={ProfilebyId} element={<UserProfile />} />
             </Route>
 
             {/* Admin Routes */}
@@ -58,6 +63,7 @@ export default function App() {
               <Route path={RouteBlog} element={<BlogDeatils />} />
               <Route path={RouteGetComments} element={<GetComments />} />
               <Route path={RouteGetAllUsers} element={<GetAllUsers />} />
+              <Route path={ProfilebyId} element={<UserProfile />} />
             </Route>
 
             {/* Public Routes */}
@@ -71,8 +77,12 @@ export default function App() {
           <Route path={RouteSignIn} element={<SignIn />} />
           <Route path={RouteSignUp} element={<SignUp />} />
 
+          
+          
+
           {/* 404 Not Found Page */}
           <Route path={RouteNotFound} element={<PageNotFound />} />
+
 
         </Routes>
       </BrowserRouter>

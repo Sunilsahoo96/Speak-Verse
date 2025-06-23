@@ -19,7 +19,7 @@ export default function Index() {
   return (
     <div className="w-full flex flex-col justify-center items-center">
       {/* Header Section */}
-      <div className="w-full px-6 sm:px-20 font-roboto flex flex-col justify-center items-center gap-6 mt-10 text-center">
+      {/* <div className="w-full px-6 sm:px-20 font-roboto flex flex-col justify-center items-center gap-6 mt-10 text-center">
         <h1 className="text-3xl sm:text-4xl font-extrabold text-[#0f172a] leading-snug">
           Welcome to <span className="text-[#ff4d6d]">SpeakVerse</span>
           <br />
@@ -33,7 +33,7 @@ export default function Index() {
         <p className="text-[#334155] text-base sm:text-lg max-w-3xl leading-relaxed">
           Dive into <span className="font-semibold text-[#ff4d6d]">SpeakVerse</span> — a space where every voice matters, stories breathe, and expression thrives. From soul-stirring journeys to hot takes, SpeakVerse lets you read, write, and resonate with the real. Discover untold perspectives, or share your own verse. This is where your story begins.
         </p>
-      </div>
+      </div> */}
 
       {/* Blog List Section */}
       <div className="w-full px-6 sm:px-20 py-10 font-roboto flex flex-wrap justify-center items-start gap-7">

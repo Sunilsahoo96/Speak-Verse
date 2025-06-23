@@ -26,6 +26,8 @@ export default function GetMyBlogs() {
         credentials: 'include'
     }, [refreshData]);
 
+    console.log(blogData)
+
     const handleDelete = async (id) => {
         const response = await deleteData(`${apiUrl}/blog/delete/${id}`);
         if (response) {
