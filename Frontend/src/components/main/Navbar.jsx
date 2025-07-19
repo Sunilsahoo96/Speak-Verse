@@ -46,7 +46,7 @@ export default function Navbar() {
                 return;
             }
             dispatch(removeUser());
-            showToast('Success', data.message || "Logout Successfully.");
+            showToast('Success', "Logged out Successfully.");
             navigate(RouteIndex);
         } catch (error) {
             showToast('Error', error.message || "Internal Server Error.");

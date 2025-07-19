@@ -49,7 +49,7 @@ export default function SignIn() {
                 return;
             }
             dispatch(setUser(data.user));
-            showToast('Success', data.message || "Login Successfully.");
+            showToast('Success', "Logged in Successfully.");
             navigate(RouteIndex);
         } catch (error) {
             showToast('Error', error.message || 'Something Went Wrong.');

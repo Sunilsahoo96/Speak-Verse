@@ -18,10 +18,10 @@ export default function SingleBlogDetail() {
     const apiUrl = import.meta.env.VITE_API_BASE_URL;
     const { blog } = useParams();
 
-    // const { data: blogData, loading, error } = useFetch(`${apiUrl}/blog/get-blog/${blog}`, {
-    //     method: 'get',
-    //     credentials: 'include',
-    // }, [blog]);
+    const { data: blogData, loading, error } = useFetch(`${apiUrl}/blog/get-blog/${blog}`, {
+        method: 'get',
+        credentials: 'include',
+    }, [blog]);
 
     const categoryid = blogData?.blog?.category?._id;
     const categorySlug = blogData?.blog?.category.slug;
