@@ -128,4 +128,7 @@ npm install
 # 4. Run the app
 npm run dev
 
+## 🖼️ Screenshots
 
+### 🏠 Home Page
+![Home](./screenshots/Home without login.png)
