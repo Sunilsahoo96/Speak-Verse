@@ -137,7 +137,7 @@ npm run dev
 ![Home Without Login](./screenshots/Home_without_login.png)
 
 ### 🔐 Login Page
-![Login](./screenshots/Login.png)
+![Login](./screenshots/login.png)
 
 ### 📝 Signup Page
 ![Signup](./screenshots/Signup.png)
@@ -146,22 +146,22 @@ npm run dev
 ![Home With Login](./screenshots/Home_with_login.png)
 
 ### ➕ Add Blog
-![Add Blog](./screenshots/Addblog.png)
+![Add Blog](./screenshots/Add_blog.png)
 
 ### 🆕 Add New Blog (Rich Editor)
 ![Add New Blog](./screenshots/Add_new_blog.png)
 
 ### 📑 Single Blog View
-![Single Blog](./screenshots/Singleblogview.png)
+![Single Blog](./screenshots/Single_blog_view.png)
 
 ### 💬 Comments by Logged-in User
-![Comments](./screenshots/Commentsby%20loggedin%20user.png)
+![Comments](./screenshots/Commentsby_loggedin_user.png)
 
 ### 👥 Other Users' Profiles
-![Other Profiles](./screenshots/Other%20users%20profile.png)
+![Other Profiles](./screenshots/Other_users_profile.png)
 
 ### 🔔 Real-time Notifications
 ![Realtime Notification](./screenshots/Realtime_notification.png)
 
 ### 👤 Profile Update Page
-![Profile Update](./screenshots/User%20Profileupdtae.png)
+![Profile Update](./screenshots/User_Profileupdate.png)
