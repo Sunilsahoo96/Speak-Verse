@@ -128,6 +128,40 @@ npm install
 # 4. Run the app
 npm run dev
 
-## 🖼️ Screenshots
 
 
+
+## 📸 Screenshots
+
+### 🏠 Home Page (Without Login)
+![Home Without Login](./screenshots/Home_without_login.png)
+
+### 🔐 Login Page
+![Login](./screenshots/Login.png)
+
+### 📝 Signup Page
+![Signup](./screenshots/Signup.png)
+
+### 🏡 Home Page (Logged In)
+![Home With Login](./screenshots/Home_with_login.png)
+
+### ➕ Add Blog
+![Add Blog](./screenshots/Addblog.png)
+
+### 🆕 Add New Blog (Rich Editor)
+![Add New Blog](./screenshots/Add_new_blog.png)
+
+### 📑 Single Blog View
+![Single Blog](./screenshots/Singleblogview.png)
+
+### 💬 Comments by Logged-in User
+![Comments](./screenshots/Commentsby%20loggedin%20user.png)
+
+### 👥 Other Users' Profiles
+![Other Profiles](./screenshots/Other%20users%20profile.png)
+
+### 🔔 Real-time Notifications
+![Realtime Notification](./screenshots/Realtime_notification.png)
+
+### 👤 Profile Update Page
+![Profile Update](./screenshots/User%20Profileupdtae.png)
