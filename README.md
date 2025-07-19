@@ -130,5 +130,4 @@ npm run dev
 
 ## 🖼️ Screenshots
 
-### 🏠 Home Page
-![Home](./screenshots/Home without login.png)
+
